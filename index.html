@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lecture 11</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="fname">First Name: </label>
+        <input id="fname" name="fname" type="text" placeholder="First name" />
+      </div>
+
+      <div>
+        <label for="lname">Last Name: </label>
+        <input id="lname" name="lname" type="text" placeholder="Last name" />
+      </div>
+
+      <div>
+        <label for="email">Email: </label>
+        <input id="email" name="email" type="email" placeholder="Email" />
+      </div>
+
+      <div>
+        <label for="mobile">Mobile number: </label>
+        <input
+          id="mobile"
+          name="mobile"
+          type="number"
+          placeholder="Mobile number"
+        />
+      </div>
+
+      <div>
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+          <option value="">Georgia</option>
+          <option value="">USA</option>
+          <option value="">England</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="bmw">BMW</label>
+        <input id="bmw" name="bmw" type="checkbox" />
+      </div>
+
+      <div>
+        <label for="opel">Opel</label>
+        <input id="opel" name="opel" type="checkbox" />
+      </div>
+
+      <div>
+        <label for="merc">Merc</label>
+        <input id="merc" name="merc" type="checkbox" />
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input id="male" name="gender" type="radio" />
+      </div>
+      <div>
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio" />
+      </div>
+
+      <div>
+        <label for="comment">Write Comment</label>
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Leave a comment"
+        ></textarea>
+      </div>
+
+      <input type="button" value="Submit Form" />
+
+      <button>
+        <!-- <div class="extra-element"></div> -->
+        Second Button for Submit
+      </button>
+    </form>
+  </body>
+</html>
